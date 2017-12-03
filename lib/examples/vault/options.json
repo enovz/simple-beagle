@@ -1,0 +1,35 @@
+{
+  "beagle": "beaglebone green wireless",
+  "name": "Beagle 3",
+  "inputPins": [
+    {
+      "key": "P8_38",
+      "value": 0,
+      "alias": "requestExit"
+    }
+  ],
+  "outputPins": [
+    {
+      "key": "P8_39",
+      "alias": "door",
+      "value": 1,
+      "delay": 10
+    }
+  ],
+  "serialPorts": [
+    {
+      "path": "/dev/ttyO1",
+      "alias": "rfidScanner",
+      "options": {
+        "baudRate": 9600
+      }
+    },
+    {
+      "path": "/dev/ttyO3",
+      "alias": "keyPad",
+      "options": {
+        "baudRate": 9600
+      }
+    }
+  ]
+}

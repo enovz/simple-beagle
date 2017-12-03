@@ -1,0 +1,28 @@
+{
+  "beagle": "beaglebone green wireless",
+  "name": "Beagle 2",
+  "outputPins": [
+    {
+      "key": "P8_39",
+      "alias": "door",
+      "startValue": 1,
+      "delay": 10
+    }
+  ],
+  "serialPorts": [
+    {
+      "path": "/dev/ttyO1",
+      "alias": "enter",
+      "options": {
+        "baudRate": 9600
+      }
+    },
+    {
+      "path": "/dev/ttyO3",
+      "alias": "exit",
+      "options": {
+        "baudRate": 9600
+      }
+    }
+  ]
+}

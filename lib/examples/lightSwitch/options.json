@@ -1,0 +1,18 @@
+{
+  "v": "beaglebone green wireless",
+  "name": "Beagle 1",
+  "inputPins": [
+    {
+      "key": "P8_38",
+      "value": 0,
+      "alias": "button"
+    }
+  ],
+  "outputPins": [
+    {
+      "key": "P8_39",
+      "alias": "light",
+      "startValue": 0
+    }
+  ]
+}
